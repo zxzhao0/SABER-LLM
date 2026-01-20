@@ -13,21 +13,18 @@ This is the official implementation of the paper: **"Integrating Fine-Grained Au
 
 ---
 
-## 📊 Data Pipeline
+## 📊 Data Pipeline and Model Architecture
 
 Our data construction pipeline integrates a unified fine-grained annotation strategy with automated quality control mechanisms across three stages.
 
 ![Data Processing Pipeline](data.png)
-*Figure 1: Overview of the SABER data pipeline, featuring Raw Data Cleaning, Fine-grained Multimodal Annotation, and Instruction Generation.*
+*Figure 1: (a) Overview of the SABER data pipeline, featuring Raw Data Cleaning, Fine-grained Multimodal Annotation, and Instruction Generation. (b) Training Paradigm: Stage 1 (SED) for sequential grounding and Stage 2 (CA-DPO) for preference alignment in conflicting scenarios.**
 
 ---
-
-## 🤖 Model Architecture & Training
 
 SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence grounding.
 
 ![Model Architecture](model.png)
-*Figure 2: (a) Six-dimensional annotation process. (b) Training Paradigm: Stage 1 (SED) for sequential grounding and Stage 2 (CA-DPO) for preference alignment in conflicting scenarios.*
 
 ### Six-Dimensional Annotation Schema
 1.  **Video Description**: Macro scene context.
