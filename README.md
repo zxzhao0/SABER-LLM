@@ -39,10 +39,20 @@ SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence groun
 ## 📅 To-Do List
 
 - [ ] Release SABER-Test benchmark (1,800 clips)
-- [ ] Release SABER-LLM-7B model weights
+- [x] Release SABER-LLM-7B model weights
 - [ ] Release the full SABER training dataset (600K clips)
 - [ ] Provide automated data annotation scripts
 - [ ] Quick Start and Inference Example scripts
 
+---
+
+## ✨ Model Weights
+
+The SABER-LLM-7B model weights are now available on Hugging Face!
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SABER--LLM-blue)](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
+
+You can download them from the following repository:
+[https://huggingface.co/zhaoxiaoxian/SABER-LLM](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
 
 ---
