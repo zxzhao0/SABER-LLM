@@ -1,6 +1,9 @@
-# Integrating Fine-Grained Audio-Visual Evidence for Robust Multimodal Emotion Reasoning (SABER-LLM)
+# Integrating Fine-Grained Audio-Visual Evidence for Robust Multimodal Emotion Reasoning
 
 This is the official implementation of the paper: **"Integrating Fine-Grained Audio-Visual Evidence for Robust Multimodal Emotion Reasoning"**. 
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SABER--LLM-blue)](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/zxzhao0/SABER-LLM/)
 
 ---
 
