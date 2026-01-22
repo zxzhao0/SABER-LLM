@@ -2,11 +2,13 @@
 
 This is the official implementation of the paper: **"Integrating Fine-Grained Audio-Visual Evidence for Robust Multimodal Emotion Reasoning"**. 
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SABER--LLM-blue)](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
-[![GitHub](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/zxzhao0/SABER-LLM/)
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming%20Soon-lightgrey)]( #)
+[![GitHub](https://img.shields.io/badge/GitHub-Coming%20Soon-lightgrey?logo=github)]( #)
+
+> **Note:** Due to the anonymous review process, the code, model weights and dataset links will be updated here upon acceptance.
 
 ---
-
 ## 💡 Key Contributions
 
 *   **SABER Dataset**: A large-scale multimodal emotion reasoning dataset containing ~**600K** video clips, featuring a unique six-dimensional annotation schema.
@@ -15,7 +17,6 @@ This is the official implementation of the paper: **"Integrating Fine-Grained Au
 *   **SOTA Performance**: Outperforms existing open-source baselines on EMER, EmoBench-M, and SABER-Test.
 
 ---
-
 ## 📊 Data Pipeline and Model Architecture
 
 Our data construction pipeline integrates a unified fine-grained annotation strategy with automated quality control mechanisms across three stages.
@@ -38,24 +39,23 @@ SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence groun
 6.  **Multimodal Emotion Analysis**: Final holistic reasoning and causal logic.
 
 ---
-
 ## 📅 To-Do List
 
 - [ ] Release SABER-Test benchmark (1,800 clips)
 - [x] Release SABER-LLM-7B model weights
-- [ ] Release the full SABER training dataset (600K clips)
+- [x] Release the full SABER training dataset
 - [ ] Provide automated data annotation scripts
 - [ ] Quick Start and Inference Example scripts
 
 ---
-
 ## ✨ Model Weights
 
 The SABER-LLM-7B model weights are now available on Hugging Face!
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SABER--LLM-blue)](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming%20Soon-lightgrey)]( #)
 
 You can download them from the following repository:
-[https://huggingface.co/zhaoxiaoxian/SABER-LLM](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
+https://huggingface.co/XXXXXX/XXXXX. 
+(Due to the anonymous review process, the code, model weights and dataset links will be updated here upon acceptance.)
 
 ---
