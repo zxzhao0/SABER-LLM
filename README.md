@@ -29,7 +29,6 @@ SABER (Scene, Audio, Body, Expression, and Reasoning) is a large-scale emotion r
 
 * **Scale:** ~600K video clips.
 * **Languages:** Chinese (CN) and English (EN).
-* **Modalities:** Video and Audio (V+A).
 
 ### Data Structure
 The dataset is provided in JSON format. Each entry contains fine-grained annotations decoupled into explicit visual and acoustic evidence, followed by holistic reasoning.
@@ -141,4 +140,4 @@ SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence groun
 - [x] Release SABER-LLM-7B model weights
 - [x] Release the full SABER training dataset
 - [x] Quick Start and Inference Example scripts
-- [ ] Provide automated data annotation scripts
+- [x] Provide automated data annotation scripts
