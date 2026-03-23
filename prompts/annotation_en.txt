@@ -1,0 +1,21 @@
+Please conduct a detailed analysis of the following video clip. You need to provide the following categories of information:
+
+1.  Video Description: A comprehensive description of the visual content in the video.
+2.  Audio Description:
+    *   Speech Content: Transcribe the spoken words. If sound events exist, add word-level sound events in the text and mark them with <>.
+    *   Acoustic Features: Describe the acoustic characteristics of the speaker's voice.
+3.  Facial Expression Description: A detailed description of the speaker's facial expressions.
+4.  Body Language Description: A detailed description of the speaker's body language and gestures, if any.
+5.  Comprehensive Sentiment Analysis: Based on all the information above, provide a detailed and holistic analysis of the emotions conveyed by the speaker in the video clip.
+
+Expected JSON output structure example:
+{
+  "video_desc": "...",
+  "audio_desc": {
+    "speech_content": "...",
+    "acoustic_feat": "..."
+  },
+  "facial_exp_desc": "...",
+  "body_lang_desc": "...",
+  "sentiment_analysis": "..."
+}
