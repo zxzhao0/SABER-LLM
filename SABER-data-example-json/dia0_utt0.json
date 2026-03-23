@@ -1,0 +1,10 @@
+{
+    "audio_desc": {
+        "speech_content": "Why do all your coffee mugs have numbers on the bottom?",
+        "acoustic_feat": "The speaker has a male voice with a moderate pitch and a conversational volume. His tone is inquisitive and slightly puzzled, delivering the line in a smooth, even cadence."
+    },
+    "video_desc": "A man and a woman are standing in a colorful kitchen, both holding dark coffee mugs. The man, dressed in a black suit jacket over a green shirt, is looking down at the bottom of his mug. The woman, wearing a light-colored patterned dress, stands beside him by the turquoise kitchen counter and looks at him. The kitchen is well-lit and appears to be part of an apartment set, with shelves full of items and a refrigerator on the right.",
+    "facial_exp_desc": "The man's eyebrows are slightly furrowed as he looks down at the mug, conveying curiosity and concentration. His mouth is slightly agape as he speaks. The woman has a relatively neutral expression, looking at the man as he asks his question, her lips slightly parted as if she is about to respond.",
+    "sentiment_analysis": "The overall sentiment of the clip is neutral and inquisitive. The speaker's tone of voice, which is purely questioning, aligns perfectly with his focused body language (examining the mug) and curious facial expression (furrowed brow). There is no indication of negative or positive emotion; it's a simple, lighthearted moment of inquiry in a casual, friendly setting. The woman's neutral reaction suggests this is the beginning of a normal conversation. The atmosphere is calm and conversational.",
+    "body_lang_desc": "The man holds the coffee mug with both hands, tilting it to examine the bottom. His posture is relaxed and focused on the object of his curiosity. The woman stands with one hand on the counter and the other holding her own mug. She makes a slight, subtle gesture with her free hand as she listens."
+}
