@@ -19,7 +19,7 @@ This is the official implementation of the paper: **"Integrating Fine-Grained Au
 
 * **Paper**: [https://arxiv.org/abs/2601.18321](https://arxiv.org/abs/2601.18321)
 * **Model Weights (7B)**: [https://huggingface.co/zhaoxiaoxian/SABER-LLM](https://huggingface.co/zhaoxiaoxian/SABER-LLM)
-* **Training Dataset**: [https://huggingface.co/datasets/zhaoxiaoxian/SABER-Dataset](https://huggingface.co/datasets/zhaoxiaoxian/SABER-Dataset)
+* **SABER Dataset**: [https://huggingface.co/datasets/zhaoxiaoxian/SABER-Dataset](https://huggingface.co/datasets/zhaoxiaoxian/SABER-Dataset)
 * **GitHub**: [https://github.com/zxzhao0/SABER-LLM](https://github.com/zxzhao0/SABER-LLM)
 
 ---
@@ -29,6 +29,14 @@ SABER (Scene, Audio, Body, Expression, and Reasoning) is a large-scale emotion r
 
 * **Scale:** ~600K video clips.
 * **Languages:** Chinese (CN) and English (EN).
+* 
+### Six-Dimensional Annotation
+1.  **Video Description**: Macro scene context.
+2.  **Facial Expression**: Micro-expressions and gaze.
+3.  **Body Language**: Posture, gestures, and social signals.
+4.  **Acoustic Features**: Prosody, pitch, and tonal intensity.
+5.  **Speech Content**: Verbatim transcripts and semantic info.
+6.  **Multimodal Emotion Analysis**: Final holistic reasoning and causal logic.
 
 ### Data Structure
 The dataset is provided in JSON format. Each entry contains fine-grained annotations decoupled into explicit visual and acoustic evidence, followed by holistic reasoning.
@@ -57,7 +65,7 @@ SABER aggregates and builds upon several foundational multimodal datasets. Below
 * **MSP-IMPROV:** Carlos Busso, Srinivas Parthasarathy, Alec Burmania, Mohammed Abdel-Wahab, Najmeh Sadoughi, et al., "MSP-IMPROV: an acted corpus of dyadic interactions to study emotion perception," IEEE Trans. Affect. Comput., vol. 8, no. 1, pp. 67-80, 2017.
 * **MultiDialog:** Se Jin Park, Chae Won Kim, Hyeongseop Rha, Minsu Kim, Joanna Hong, et al., "Let's go real talk: Spoken dialogue model for face-to-face conversation," in ACL, 2024, pp. 16334-16348.
 * **RAVDESS:** Steven R Livingstone and Frank A Russo, "The ryerson audio-visual database of emotional speech and song (ravdess): A dynamic, multimodal set of facial and vocal expressions in north american english," PloS one, vol. 13, no. 5, pp. e0196391, 2018.
-* **CH-SIMSv2.0-5:** Yihe Liu, Ziqi Yuan, Huisheng Mao, Zhiyun Liang, Wanqiuyue Yang, et al., "Make acoustic and visual cues matter: CH-SIMS v2.0 dataset and av-mixup consistent module," in ICMI, 2022, pp. 247-258.
+* **CH-SIMSv2.0:** Yihe Liu, Ziqi Yuan, Huisheng Mao, Zhiyun Liang, Wanqiuyue Yang, et al., "Make acoustic and visual cues matter: CH-SIMS v2.0 dataset and av-mixup consistent module," in ICMI, 2022, pp. 247-258.
 * **MEmoR:** Guangyao Shen, Xin Wang, Xuguang Duan, Hongzhi Li, and Wenwu Zhu, "MEmoR: A dataset for multimodal emotion reasoning in videos," in ACM MM, 2020, pp. 493-502.
 
 ---
@@ -126,13 +134,6 @@ SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence groun
 
 ![Model Architecture](model.png)
 
-### Six-Dimensional Annotation Schema
-1.  **Video Description**: Macro scene context.
-2.  **Facial Expression**: Micro-expressions and gaze.
-3.  **Body Language**: Posture, gestures, and social signals.
-4.  **Acoustic Features**: Prosody, pitch, and tonal intensity.
-5.  **Speech Content**: Verbatim transcripts and semantic info.
-6.  **Multimodal Emotion Analysis**: Final holistic reasoning and causal logic.
 
 ---
 ## 📅 To-Do List
