@@ -23,7 +23,6 @@ This is the official implementation of the paper: **"Integrating Fine-Grained Au
 * **GitHub**: [https://github.com/zxzhao0/SABER-LLM](https://github.com/zxzhao0/SABER-LLM)
 
 ---
----
 ## 📚 The SABER Dataset
 
 SABER (Scene, Audio, Body, Expression, and Reasoning) is designed to shift multimodal emotion analysis from static classification to generative reasoning. It mitigates uni-modal dominance and hallucinations by grounding reasoning in observable multimodal evidence.
@@ -82,7 +81,6 @@ Our data construction pipeline integrates a unified fine-grained annotation stra
 *Figure 1: (a) Overview of the SABER data pipeline, featuring Raw Data Cleaning, Fine-grained Multimodal Annotation, and Instruction Generation. (b) Training Paradigm: Stage 1 (SED) for sequential grounding and Stage 2 (CA-DPO) for preference alignment in conflicting scenarios.*
 
 ---
-
 SABER-LLM utilizes a two-stage training paradigm to ensure robust evidence grounding.
 
 ![Model Architecture](model.png)
